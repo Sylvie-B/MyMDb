@@ -4,7 +4,7 @@ include './parts/header.php';
 ?>
 
     <section>
-        <div>
+        <div id="carousel">
             <!-- caroussel -->
         </div>
     </section>
