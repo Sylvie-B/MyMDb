@@ -14,10 +14,10 @@
 </head>
 <body>
 
-    <header>
-        <div id="mainTitle">MyMDb</div>
-        <div id="menu">Menu</div>
-        <div id="searchBar">
+    <header class="row">
+        <div class="col-sm-2" id="mainTitle">MyMDb</div>
+        <div class="col-sm-2" id="menu">Menu</div>
+        <div class="col-sm-6" id="searchBar">
             <div id="select">
                 <!-- select -->
             </div>
@@ -25,7 +25,7 @@
                 <!-- input research -->
             </div>
         </div>
-        <div id="signIn">Sign in</div>
+        <div class="col-sm-2" id="signIn">Sign in</div>
     </header>
 
 </body>

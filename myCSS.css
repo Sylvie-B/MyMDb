@@ -7,19 +7,11 @@
 html {
     font-size: 62.5%;
     font-family: fantasy;
+    color: white;
 }
 
 body {
     width: 100%;
-}
-
-header, #searchBar {
-    display: flex;
-    justify-content: space-between;
-}
-
-header div {
-    height: 5vh;
-    border: 1px black solid;
+    background-color: black;
 }
 
