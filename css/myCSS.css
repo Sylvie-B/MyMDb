@@ -12,12 +12,17 @@ body {
     width: 100%;
     color: white;
     font-family: fantasy;
+    background-color: black;
+}
+
+header, footer, #show, #thumbnails, #allFilms {
+    border: 1px solid white;
 }
 
 header, footer {
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    border: 1px solid white;
 }
 
 /*  header  */
@@ -48,6 +53,7 @@ section {
 
 #show {
     width: 100%;
+
 }
 
 #thumbnails, #container{
@@ -55,8 +61,13 @@ section {
     flex-direction: column;
 }
 
+#thumbnails {
+    height: 100%;
+}
+
 #thumbnails img, #allFilms img{
     width: 10rem;
+    padding: 1rem 0;
 }
 
 #allFilms{
