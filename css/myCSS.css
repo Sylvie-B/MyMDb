@@ -6,12 +6,12 @@
 
 html {
     font-size: 62.5%;
-    font-family: fantasy;
 }
 
 body {
     width: 100%;
     color: white;
+    font-family: fantasy;
 }
 
 header, footer {
@@ -25,13 +25,42 @@ header, footer {
     display: flex;
 }
 
-#carousel {
-    width: 50%;
-    height: 50vh;
-    border : 1px solid white;
-}
-
 /* footer */
 #socials i {
     margin: 0 2px;
 }
+
+/* poster */
+#show, #poster {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container {
+    justify-content: space-around;
+}
+
+section {
+    padding: 1rem;
+    background-color: black;
+}
+
+#show {
+    width: 100%;
+}
+
+#thumbnails, #container{
+    display: flex;
+    flex-direction: column;
+}
+
+#thumbnails img, #allFilms img{
+    width: 10rem;
+}
+
+#allFilms{
+    display: flex;
+    justify-content: center;
+}
+

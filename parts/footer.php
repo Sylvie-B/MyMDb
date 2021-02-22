@@ -6,6 +6,6 @@
             <i class="fab fa-twitch"></i>
         </div>
     </footer>
-
+    <script src="../js/myJs.js"></script>
 </body>
 </html>
