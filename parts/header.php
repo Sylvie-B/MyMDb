@@ -1,3 +1,4 @@
+<div id="container">
 <header>
     <div id="mainTitle">MyMDb</div>
     <div id="menu">Menu</div>

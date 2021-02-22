@@ -23,6 +23,7 @@ header, footer {
     display: flex;
     justify-content: space-around;
     border: 1px solid white;
+    font-size: 1.5rem;
 }
 
 /*  header  */
@@ -43,7 +44,7 @@ header, footer {
 }
 
 #container {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 section {
@@ -67,7 +68,7 @@ section {
 
 #thumbnails img, #allFilms img{
     width: 10rem;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 #allFilms{
