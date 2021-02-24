@@ -15,14 +15,13 @@ body {
     background-color: black;
 }
 
-header, footer, #show, #thumbnails, #allFilms {
+header, footer, #show, #genre, #allFilms {
     border: 1px solid white;
 }
 
 header, footer {
     display: flex;
     justify-content: space-around;
-    border: 1px solid white;
     font-size: 1.5rem;
 }
 
@@ -57,16 +56,17 @@ section {
 
 }
 
-#thumbnails, #container{
+#genre, #container{
     display: flex;
     flex-direction: column;
 }
 
-#thumbnails {
-    height: 100%;
+#genre {
+    max-height: 60rem;
+    overflow: hidden;
 }
 
-#thumbnails img, #allFilms img{
+#genre img, #allFilms img{
     width: 10rem;
     padding: 1rem;
 }

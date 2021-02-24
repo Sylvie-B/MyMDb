@@ -6,7 +6,7 @@
         <div id="select">
             <select name="media" id="media">
                 <option value="film">film</option>
-                <option value="serie">serie</option>
+    <!--        <option value="serie">serie</option>        -->
             </select>
         </div>
         <div id="research">
