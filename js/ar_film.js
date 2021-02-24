@@ -1,8 +1,8 @@
-export {FilmArray};
+export {filmArray};
 
 // create a film object
 // titre, poster, real, year
-let FilmArray = [
+let filmArray = [
     [
         'Le hobbit',
         [

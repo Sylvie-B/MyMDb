@@ -27,7 +27,7 @@ include './parts/header.php';
     </div>
 
     <section id="allFilms">
-        <a href="detail"></a>
+        <a href="film_detail.php">ici</a>
 <!--    <img src="./img/poster/lotr01.jpg" alt="affiche 1">-->
 <!--    <img src="./img/poster/lotr02.jpg" alt="affiche 2">-->
 <!--    <img src="./img/poster/lotr03.jpg" alt="affiche 3">-->
