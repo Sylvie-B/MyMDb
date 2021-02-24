@@ -6,8 +6,8 @@ container.style.width = window.innerWidth + 'px';
 
 $('.carousel').carousel();
 
-// create img for all film + add on allFilms section
-
+// create img link for all film + add all on allFilms section
+let link = $('#allFilms').append('<a href=')
 
 // create .carousel-item div * film + add .active to the first div
 // append child all film img

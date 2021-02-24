@@ -7,6 +7,7 @@
         </div>
     </footer>
     </div>
-    <script src="../js/myJs.js"></script>
+    <script src="../js/ar_film.js" type="module"></script>
+    <script src="../js/myJs.js" type="module"></script>
 </body>
 </html>

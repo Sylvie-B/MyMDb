@@ -19,17 +19,18 @@ include './parts/header.php';
         </section>
         <section>
             <div id="thumbnails">
-                <img src="./img/poster/lotr01.jpg" alt="affiche 1">
-                <img src="./img/poster/lotr02.jpg" alt="affiche 2">
-                <img src="./img/poster/lotr03.jpg" alt="affiche 3">
+<!--            <img src="./img/poster/lotr01.jpg" alt="affiche 1">-->
+<!--            <img src="./img/poster/lotr02.jpg" alt="affiche 2">-->
+<!--            <img src="./img/poster/lotr03.jpg" alt="affiche 3">-->
             </div>
         </section>
     </div>
 
     <section id="allFilms">
-        <img src="./img/poster/lotr01.jpg" alt="affiche 1">
-        <img src="./img/poster/lotr02.jpg" alt="affiche 2">
-        <img src="./img/poster/lotr03.jpg" alt="affiche 3">
+        <a href="detail"></a>
+<!--    <img src="./img/poster/lotr01.jpg" alt="affiche 1">-->
+<!--    <img src="./img/poster/lotr02.jpg" alt="affiche 2">-->
+<!--    <img src="./img/poster/lotr03.jpg" alt="affiche 3">-->
     </section>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
