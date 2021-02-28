@@ -1,42 +1,60 @@
-export {filmArray};
+export {filmJson};
 
-// create a film array
 // titre, poster, real, year
-let filmArray = [
-    [
-        'La communauté de l\'anneau',
-        './img/poster/lotr01.jpg',
-        'Peter Jackson',
-        '2001',
-    ],
-    [
-        'Les deux tours',
-        './img/poster/lotr02.jpg',
-        'Peter Jackson',
-        '2002',
-    ],
-    [
-        'Le retour du roi',
-        './img/poster/lotr03.jpg',
-        'Peter Jackson',
-        '2003',
-    ],
-    [
-        'Un voyage inattendu',
-        './img/poster/hobbit01.jpg',
-        'Peter Jackson',
-        '2012',
-    ],
-    [
-        'La désolation de Smaug',
-        './img/poster/hobbit02.jpg',
-        'Peter Jackson',
-        '2013',
-    ],
-    [
-        'La bataille des 5 armées',
-        './img/poster/hobbit03.jpg',
-        'Peter Jackson',
-        '2014',
-    ],
+
+let filmJson = [
+    {
+        'director': 'Peter Jackson',
+        'genre' : 'Heroic fantasy',
+        'label' : 'Le seigneur des anneaux',
+        'poster': './img/poster/lotr01.jpg',
+        'synopsis': 'L\'anneau unique se retrouve en possession de l\'être le plus inattendu',
+        'title': 'La communauté de l\'anneau',
+        'year': '2001',
+    },
+    {
+        'director': 'Peter Jackson',
+        'genre' : 'Heroic fantasy',
+        'label' : 'Le seigneur des anneaux',
+        'poster': './img/poster/lotr02.jpg',
+        'synopsis': '',
+        'title': 'Les deux tours',
+        'year': '2002',
+    },
+    {
+        'director': 'Peter Jackson',
+        'genre' : 'Heroic fantasy',
+        'label' : 'Le seigneur des anneaux',
+        'poster': './img/poster/lotr03.jpg',
+        'synopsis': '',
+        'title': 'Le retour du roi',
+        'year': '2003',
+    },
+    {
+        'director': 'Peter Jackson',
+        'genre' : 'Heroic fantasy',
+        'label' : 'Le hobbit',
+        'poster': './img/poster/hobbit01.jpg',
+        'synopsis': '',
+        'title': 'Un voyage inattendu',
+        'year': '2012',
+    },
+    {
+        'director': 'Peter Jackson',
+        'genre' : 'Heroic fantasy',
+        'label' : 'Le hobbit',
+        'poster': './img/poster/hobbit02.jpg',
+        'synopsis': '',
+        'title': 'La désolation de Smaug',
+        'year': '2013',
+    },
+    {
+        'director': 'Peter Jackson',
+        'genre' : 'Heroic fantasy',
+        'label' : 'Le hobbit',
+        'poster': './img/poster/hobbit03.jpg',
+        'synopsis': '',
+        'title': 'La bataille des 5 armées',
+        'year': '2014',
+    },
 ]

@@ -53,7 +53,10 @@ section {
 
 #show {
     width: 100%;
+}
 
+#poster {
+    width: 100%;
 }
 
 #genre, #container{
@@ -74,5 +77,6 @@ section {
 #allFilms{
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 

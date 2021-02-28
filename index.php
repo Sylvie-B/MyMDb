@@ -4,8 +4,21 @@ include './parts/header.php';
 ?>
 
     <div id="show">
-        <section class="carousel slide">
-            <div class="carousel-inner" id="poster"></div>
+        <section id="filmCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" id="poster">
+                <!-- carousel-item div -->
+            </div>
+            <a class="carousel-control-prev" href="#filmCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#filmCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </section>
+        <section>
+            <div id="info"></div>
         </section>
         <section>
             <div id="genre"></div>
